@@ -64,7 +64,7 @@ const authListener =()=>{
     if(user){
       //setEmail('')
       //setPassword('')
-      setUser({user})
+      setUser(user)
     }else{
       setUser('')
     }
